@@ -27,6 +27,20 @@
   font-display: swap;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   background: #0b1d26;
   color: #fff;
@@ -38,7 +52,26 @@ body {
 
 .header {
   max-width: 1760px;
-  margin: 0 auto;
+  margin: 0 auto 198px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-top: 64px;
+}
+
+.menu__list {
+  display: flex;
+  gap: 40px;
+}
+
+.menu__list-link {
+  line-height: 1.2;
+}
+
+.account {
+  font-size: 17px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
