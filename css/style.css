@@ -46,6 +46,10 @@ li {
   list-style: none;
 }
 
+p {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -87,4 +91,50 @@ body {
 }
 
 .content {
+  max-width: 1480px;
+  padding: 0 10px;
+  margin: 0 auto 200px;
+}
+
+.content__top {
+  max-width: 950px;
+  margin: 0 auto 720px;
+}
+
+.pre-title {
+  font-family: "Gilroy-Extrabold";
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: 6px;
+  color: #fbd784;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 104px;
+}
+
+.pre-title::before {
+  position: absolute;
+  content: "";
+  width: 72px;
+  height: 2px;
+  background-color: #fbd784;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title {
+  font-family: "Chronicle-Display-Semibold";
+  font-size: 88px;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: capitalize;
+  margin: 0 0 32px;
+  padding-top: 32px;
+}
+
+.scroll {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
 }
