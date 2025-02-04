@@ -172,4 +172,7 @@ body {
 
 .list__item-link {
   color: #fbd784;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
 }
