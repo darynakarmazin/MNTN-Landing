@@ -138,3 +138,38 @@ body {
   align-items: center;
   gap: 16px;
 }
+
+.list {
+}
+
+.list__item {
+  margin-bottom: 200px;
+  display: flex;
+  gap: 114px;
+  align-items: center;
+}
+
+.list__item:nth-child(even) .list__item-box {
+  order: 1;
+}
+
+.list__item-box {
+  padding-left: 150px;
+}
+
+.list__item-title {
+  max-width: 555px;
+  margin: 27px 0;
+  font-family: "Chronicle-Display-Semibold";
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+.list__item-text {
+  margin-bottom: 27px;
+}
+
+.list__item-link {
+  color: #fbd784;
+}
