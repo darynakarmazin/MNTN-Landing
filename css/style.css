@@ -140,6 +140,7 @@ body {
 }
 
 .list {
+  counter-reset: number;
 }
 
 .list__item {
@@ -155,6 +156,23 @@ body {
 
 .list__item-box {
   padding-left: 150px;
+  position: relative;
+}
+
+.list__item-box::before {
+  content: "0" counter(number);
+  counter-increment: number;
+  font-size: 240px;
+  line-height: 1;
+  opacity: 0.1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(-50%);
+}
+
+.list__item:nth-child(n + 10) .list__item-box::before {
+  content: "" counter(number);
 }
 
 .list__item-title {
