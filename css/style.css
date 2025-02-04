@@ -194,3 +194,48 @@ body {
   align-items: center;
   gap: 16px;
 }
+
+.footer {
+  max-width: 1480px;
+  padding: 0 10px;
+  margin: 0 auto 240px;
+  display: flex;
+  gap: 212px;
+}
+
+.footer__main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-right: auto;
+}
+
+.footer__text {
+  max-width: 300px;
+}
+
+.copy {
+  margin-top: auto;
+  opacity: 0.5;
+  font-family: "Gilroy-Medium";
+  font-weight: 500;
+}
+
+.footer__item {
+}
+
+.footer__item-title {
+  color: #fbd784;
+  font-size: 24px;
+  line-height: 1.3;
+  margin: 0 0 24px;
+}
+
+.footer__list-item {
+  font-family: "Gilroy-Medium";
+  font-weight: 500;
+}
+
+.footer__list-item + .footer__list-item {
+  padding-top: 16px;
+}
