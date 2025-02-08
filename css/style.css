@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -62,6 +63,13 @@ body {
   font-size: 18px;
   line-height: 1.8;
   font-weight: 700;
+}
+
+.wrapper {
+  background-image: url(../images/bg-top.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
 }
 
 .header {
