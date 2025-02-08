@@ -129,6 +129,7 @@ body {
 
 .site-list__item--active {
   border-right: 3px solid rgba(255, 255, 255, 1);
+  transition: border-color 0.5s;
 }
 
 .account {
