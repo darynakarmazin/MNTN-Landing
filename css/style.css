@@ -82,6 +82,43 @@ body {
   line-height: 1.2;
 }
 
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: fixed;
+  top: 50%;
+  left: 80px;
+  transform: translateY(-50%);
+}
+
+.social a {
+  display: flex;
+}
+
+.social-text {
+  font-size: 18px;
+  writing-mode: sideways-rl;
+}
+
+.site-list {
+  position: fixed;
+  top: 50%;
+  right: 80px;
+  transform: translateY(-50%);
+  text-align: right;
+}
+
+.site-list__item {
+  padding: 16px 32px 16px 0;
+  border-right: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.site-list__item--active {
+  border-right: 3px solid rgba(255, 255, 255, 1);
+}
+
 .account {
   font-size: 17px;
   line-height: 1.2;
