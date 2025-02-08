@@ -378,6 +378,7 @@ body {
 @media (max-width: 600px) {
   .header {
     margin: 0 auto 98px;
+    padding: 36px 10px 0;
   }
   .menu__btn {
     display: flex;
